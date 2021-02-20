@@ -1,7 +1,7 @@
 # File System
 
 In this article we will discuss about using Cosmos VFS (virtual file system).
-Cosmos VFS and the VFS manager classes, let you manage your file system.
+Cosmos VFS and the VFS manager classes lets you manage your file system.
 
 First, we should create and initialize an instance of the VFS, this will initialize the partition and files-system lists, as well as register the new VFS.
 This is essential for using the VFS.
@@ -52,7 +52,7 @@ Console.WriteLine("File System Type: " + fs_type);
 
 ## Get files list
 
-We start by getting the directory entrys list, using:
+We start by getting the directory entries list, using:
 
 ```C#
 var directory_list = fs.GetDirectoryListing("0:/");
